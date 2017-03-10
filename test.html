@@ -1,0 +1,23 @@
+<script src="index.js"></script>
+
+<div class="test-item">
+    Test item #1
+</div>
+
+<div class="test-item">
+    Test item #2
+</div>
+
+<div class="test-item">
+    Test item #3
+</div>
+
+<div class="result">
+    <strong>Text content of all items:</strong>
+</div>
+
+<script>
+    document.querySelectorAll(".test-item").forEach((item) => {
+        document.querySelector(".result").innerHTML += "<br />" + item.innerText;
+    });
+</script>
