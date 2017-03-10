@@ -1,0 +1,19 @@
+{
+  "name": "nodelist-foreach-polyfill",
+  "version": "1.0.0",
+  "description": "Simple polyfill for the NodeList.forEach method.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imagitama/nodelist-foreach-polyfill.git"
+  },
+  "author": "Jared Williams (imagitama)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imagitama/nodelist-foreach-polyfill/issues"
+  },
+  "homepage": "https://github.com/imagitama/nodelist-foreach-polyfill#readme"
+}
