@@ -1,6 +1,6 @@
 {
   "name": "nodelist-foreach-polyfill",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Simple polyfill for the NodeList.forEach method.",
   "main": "index.js",
   "scripts": {
