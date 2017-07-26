@@ -10,7 +10,7 @@ See [MDN](https://developer.mozilla.org/en-US/docs/Web/API/NodeList/forEach) for
 
 ## Import
 
-```
+```JavaScript
 // CommonJS
 require('nodelist-foreach-polyfill');
 
@@ -20,7 +20,7 @@ import 'nodelist-foreach-polyfill';
 
 ## Usage
 
-```
+```JavaScript
 // Get Nodelist from DOM via document.querySelectorAll()
 var elements = document.querySelectorAll('.foo');
 
