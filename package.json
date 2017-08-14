@@ -11,6 +11,12 @@
     "url": "git+https://github.com/imagitama/nodelist-foreach-polyfill.git"
   },
   "author": "Jared Williams (imagitama)",
+  "keywords": [
+    "IE11",
+    "NodeList",
+    "forEach",
+    "polyfill"
+  ],
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/imagitama/nodelist-foreach-polyfill/issues"
