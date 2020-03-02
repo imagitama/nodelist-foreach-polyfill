@@ -1,4 +1,4 @@
-if (window.NodeList && !NodeList.prototype.forEach) {
+if (typeof window !== 'undefined' &&  window.NodeList && !NodeList.prototype.forEach) {
     NodeList.prototype.forEach = function (callback, thisArg) {
         thisArg = thisArg || window;
         for (var i = 0; i < this.length; i++) {
